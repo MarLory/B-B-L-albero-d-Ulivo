@@ -34,7 +34,7 @@ export default function Footer() {
 
                         <div>
                             <i className="fa-solid fa-envelope text-about"></i>
-                            <span className="text-[var(--text-primario)] pl-2"><a href="#">info@alberodulivo.it</a></span>
+                            <span className="text-[var(--text-primario)] pl-2"><a href="#">info@examplealberodulivo.it</a></span>
                         </div>
                         <Telephone
                             className="mb-auto"
