@@ -2,23 +2,26 @@ import Title from '../atoms/Title';
 import Subtitle from '../atoms/Subtitle';
 import Description from '../atoms/Description';
 import RoomCard from '../molecules/RoomCard';
+import stanza1 from '../../assets/media/Stanza1.png'
+import stanza2 from '../../assets/media/Stanza2.png'
+import stanza3 from '../../assets/media/Stanza3.png'
 
 
 const roomsData = [
   {
-    imageSrc: './src/assets/media/Stanza1.png',
+    imageSrc: stanza1,
     imageName: 'Camera Olivo',
     price: 80,
     description: 'Calda e rilassante, con vista sul giardino.'
   },
   {
-    imageSrc: './src/assets/media/Stanza2.png',
+    imageSrc: stanza2,
     imageName: 'Camera Mare',
     price: 90,
     description: 'Toni azzurri e freschi, ispirati alla costa.'
   },
   {
-    imageSrc: './src/assets/media/Stanza3.png',
+    imageSrc: stanza3,
     imageName: 'Camera Terra',
     price: 90,
     description: 'Atmosfera rustica e accogliente, perfetta per disconnettersi.'
