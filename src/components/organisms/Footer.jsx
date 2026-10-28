@@ -48,7 +48,7 @@ export default function Footer() {
                         <p>P.Iva 12345678910</p>
 
                         <p className="text-sm italic">
-                            © L’albero d’Ulivo di Mario Rossi. 
+                            © L’albero d’Ulivo 
                         </p>
                         <p className="text-sm italic">
                             Tutti i diritti sono riservati
