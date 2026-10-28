@@ -51,7 +51,7 @@ export default function Footer() {
                             © L’albero d’Ulivo 
                         </p>
                         <p className="text-sm italic">
-                            Tutti i diritti sono riservati
+                            Tutti i diritti sono riservati. Sito dimostrativo: struttura e dati fittizi.
                         </p>
                         <p className="pt-4 text-xs text-[var(--text-primario)]">
                             Designed & Developed by Maria Rotiroti
