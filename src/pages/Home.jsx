@@ -27,7 +27,7 @@ export default function Home() {
           id="chi-siamo"
           title="Chi siamo"
           subtitle="Accoglienza e comfort"
-          description="Nel cuore della Calabria ionica, il B&B L'Albero di Ulivo nasce dal desiderio di offrire un’accoglienza autentica, familiare e immersa nella natura. 
+          description="Nel cuore della Calabria ionica, il B&B L'Albero d'Ulivo nasce dal desiderio di offrire un’accoglienza autentica, familiare e immersa nella natura. 
                         Siamo a pochi minuti dal mare, in un angolo di pace dove relax e semplicità si incontrano.
                        Ogni dettaglio del nostro B&B è pensato per farti sentire a casa: camere curate, colazioni con prodotti locali, e il calore di una gestione fatta col cuore."
           images={[
@@ -49,7 +49,7 @@ export default function Home() {
           id="servizi"
           title="I servizi"
           subtitle="Controlla i nostri servizi inclusi!"
-          description="Al B&B L’Albero di Ulivo curiamo ogni dettaglio per offrirti un soggiorno rilassante e senza pensieri.
+          description="Al B&B L’Albero d'Ulivo curiamo ogni dettaglio per offrirti un soggiorno rilassante e senza pensieri.
           Tutti i nostri ospiti possono usufruire dei seguenti servizi, inclusi nella prenotazione."
           images={[
             { src: serv1, alt: "Immagine tavolo b&b", className: "md:w-4/5" },
