@@ -6,6 +6,10 @@ import CardSection from "../components/organisms/CardsSection"
 import Title from "../components/atoms/Title"
 import ContactSection from "../components/organisms/ContactSection"
 import Footer from "../components/organisms/Footer"
+import chiS1 from '../assets/media/ChiS1.png'
+import chiS2 from '../assets/media/ChiS2.png'
+import serv1 from '../assets/media/Serv1.png'
+import serv2 from '../assets/media/Serv2.png'
 
 
 export default function Home() {
@@ -27,8 +31,8 @@ export default function Home() {
                         Siamo a pochi minuti dal mare, in un angolo di pace dove relax e semplicità si incontrano.
                        Ogni dettaglio del nostro B&B è pensato per farti sentire a casa: camere curate, colazioni con prodotti locali, e il calore di una gestione fatta col cuore."
           images={[
-            { src: "./src/assets/media/ChiS1.png", alt: "Immagine tavolo b&b", className: "md:w-4/5" },
-            { src: "./src/assets/media/ChiS2.png", alt: "Immagine esterno b&b", className: "md:max-w-[55%] md:mr-58 md:absolute md:mt-36 " }
+            { src: chiS1, alt: "Immagine tavolo b&b", className: "md:w-4/5" },
+            { src: chiS2, alt: "Immagine esterno b&b", className: "md:max-w-[55%] md:mr-58 md:absolute md:mt-36 " }
           ]}
 
         />
@@ -48,8 +52,8 @@ export default function Home() {
           description="Al B&B L’Albero di Ulivo curiamo ogni dettaglio per offrirti un soggiorno rilassante e senza pensieri.
           Tutti i nostri ospiti possono usufruire dei seguenti servizi, inclusi nella prenotazione."
           images={[
-            { src: "./src/assets/media/Serv1.png", alt: "Immagine tavolo b&b", className: "md:w-4/5" },
-            { src: "./src/assets/media/Serv2.png", alt: "Immagine esterno b&b", className: "md:max-w-[55%] md:absolute md:mr-70 md:mt-60" }
+            { src: serv1, alt: "Immagine tavolo b&b", className: "md:w-4/5" },
+            { src: serv2, alt: "Immagine esterno b&b", className: "md:max-w-[55%] md:absolute md:mr-70 md:mt-60" }
           ]}
           className="min-h-[530px]"
         >
