@@ -1,0 +1,41 @@
+* {
+
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+
+--primario: rgb(255, 237, 216); /*beige*/
+--text-primario: rgb(71, 98, 79); /*verde*/
+--terziario: rgb(255, 255, 255); /*bianco*/
+--accento: rgb(46, 70, 49); /*verde-scuro*/
+--card1: rgb(233, 221, 209); /*beige-chiaro*/
+--bg-foo: rgb(214, 196, 177); /*marroncino*/
+--bg-principale: rgb(248, 245, 245); /*bianco-rosato*/
+
+ 
+}
+
+body {
+    background-color: var(--bg-principale);
+    min-height: 100vh;
+
+}
+
+.about {
+
+  background-color: var(--card1);
+  margin-top: 2rem;
+  border-color: var(--bg-foo);
+  
+}
+
+.text-about {
+
+  color: var(--text-primario);
+}
+
+
+html {
+  scroll-behavior: smooth; 
+}
