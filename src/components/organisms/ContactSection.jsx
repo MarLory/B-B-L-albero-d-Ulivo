@@ -20,8 +20,7 @@ return (
           {/* Mappa */}
           <div className="w-full h-[400px]">
             <iframe
-              src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99278.9547020138!2d16.994761953007522!3d38.95899565861368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134039f54d97e625%3A0x40b95ae4ee27540!2s88841%20Isola%20di%20Capo%20Rizzuto%20KR!5e0!3m2!1sit!2sit!4v1793265826150!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
-              height="100%"
+               src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99278.9547020138!2d16.994761953007522!3d38.95899565861368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134039f54d97e625%3A0x40b95ae4ee27540!2s88841%20Isola%20di%20Capo%20Rizzuto%20KR!5e0!3m2!1sit!2sit!4v1793265826150!5m2!1sit!2sit" width="600" height="450"allowfullscreen="" referrerpolicy="strict-origin-when-cross-origin"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
