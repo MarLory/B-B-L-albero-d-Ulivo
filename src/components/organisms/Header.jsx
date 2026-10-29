@@ -23,10 +23,10 @@ export default function Header() {
           Scopri la Calabria autentica
         </h2>
 
-        <Button
-          href="#" >
-          Contattaci su WhatsApp
-        </Button>
+       <Button
+  href="#contatti" >
+  Contattaci
+</Button>
       </div>
     </header>
   );
